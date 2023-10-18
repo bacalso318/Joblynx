@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project_name": "job view",
+    "id": "652f8f4bd1bdfb97101e7d22",
+    "framework": "html-css",
+    "typescript": false,
+    "path": "public/",
+    "componentsPath": "c:\\Users\\Administrator\\Documents\\Capstone\\Joblynx\\src\\components",
+    "screensPath": "c:\\Users\\Administrator\\Documents\\Capstone\\Joblynx\\src\\pages",
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case"
+  }
+}
