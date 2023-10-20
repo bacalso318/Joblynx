@@ -1,8 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
+
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./login-page-applicant.css" />
     <link
@@ -25,15 +26,15 @@
   <body>
     <div class="login-pageapplicant">
       <header class="frame">
-        <div class="frame1">
-          <img class="frame-child" alt="" src="./public/undefined14.png" />
+        <header class="frame1">
+          <img class="frame-child" />
 
           <h2 class="starboard-manpower-services">
             STARBOARD MANPOWER SERVICES INC
           </h2>
           <img
             class="download-removebg-preview-2-icon1"
-            alt=""
+            alt="Logo"
             src="./public/undefined2.png"
           />
 
@@ -43,99 +44,81 @@
             <h3 class="contact-us">Contact Us</h3>
             <h3 class="about-us">About Us</h3>
           </nav>
-        </div>
+        </header>
       </header>
-      <div class="frame2">
+      <form class="frame2">
         <div class="frame3">
           <div class="frame4">
-            <div class="password">Password</div>
+            <div class="are-you-an">Are you an employer?</div>
           </div>
-          <img class="frame-icon" alt="" src="./public/undefined15.png" />
+          <div class="frame-item"></div>
+          <input class="frame-inner" type="text" />
 
-          <div class="frame5">
-            <div class="dont-have-account-container">
-              <span>Don’t have account? </span>
-              <span class="sign-up">Sign Up</span>
-            </div>
+          <input class="frame-child1" type="password" />
+
+          <img class="group-icon" alt="" src="./public/group.svg" />
+
+          <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+          <div class="stay-sign-in">Stay sign in</div>
+          <div class="emailusername">Email/Username</div>
+          <div class="password">Password</div>
+          <img
+            class="starboard-removebg-preview-2-icon"
+            alt=""
+            src="./public/undefined2.png"
+          />
+
+          <label class="box">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+
+          <div class="forgot-password">Forgot Password?</div>
+          <div class="mdieye"></div>
+          <img class="vector-icon1" alt="" src="./public/vector1.svg" />
+
+          <div class="log-in-to">Log In to your Account</div>
+          <div class="or-sign-in">-Or sign in with-</div>
+          <button class="log-in-with-facebook-wrapper">
+            <div class="log-in-with">Log in with Facebook</div>
+          </button>
+          <button class="log-in-with-google-wrapper">
+            <div class="log-in-with1">Log in with Google</div>
+          </button>
+          <img
+            class="deviconfacebook"
+            alt=""
+            src="./public/deviconfacebook.svg"
+          />
+
+          <img
+            class="flat-color-iconsgoogle"
+            alt=""
+            src="./public/flatcoloriconsgoogle.svg"
+          />
+
+          <div class="dont-have-account-container">
+            <span class="dont-have-account">Don’t have account? </span>
+            <span class="sign-up">Sign Up</span>
           </div>
-          <div class="frame6">
-            <button class="log-in-with-facebook-wrapper">
-              <div class="log-in-with">Log in with Facebook</div>
+          <div class="frame-parent" id="frameContainer1">
+            <div class="frame-div"></div>
+            <button class="log-in-wrapper">
+              <div class="log-in">Log in</div>
             </button>
           </div>
-          <div class="frame7">
-            <div class="frame-item"></div>
-            <div class="frame8">
-              <div class="are-you-an">Are you an employer?</div>
-            </div>
-          </div>
-          <div class="frame9">
-            <div class="frame10">
-              <img
-                class="starboard-removebg-preview-1-icon"
-                alt=""
-                src="./public/undefined16.png"
-              />
-            </div>
-            <div class="frame11">
-              <div class="log-in-to">Log In to your Account</div>
-            </div>
-          </div>
-          <div class="frame12">
-            <div class="frame13">
-              <input class="frame-inner" type="text" />
-            </div>
-            <div class="frame14">
-              <div class="password">Email/Username</div>
-            </div>
-          </div>
-          <div class="frame15">
-            <div class="frame16">
-              <input class="frame-child1" type="text" />
-            </div>
-            <img class="frame-icon1" alt="" src="./public/undefined17.png" />
-          </div>
-          <div class="frame17">
-            <div class="frame18">
-              <div class="mdieye"></div>
-            </div>
-            <img class="frame-icon1" alt="" src="./public/undefined18.png" />
-          </div>
-          <div class="frame19">
-            <div class="frame20">
-              <div class="forgot-password">Forgot Password?</div>
-            </div>
-            <div class="frame21">
-              <div class="keep-me-signed">Keep me signed in</div>
-            </div>
-            <img class="frame-icon3" alt="" src="./public/undefined19.png" />
-          </div>
-          <div class="frame22">
-            <img class="frame-icon4" alt="" src="./public/undefined20.png" />
-
-            <div class="frame23">
-              <div class="or-sign-in">-Or sign in with-</div>
-            </div>
-            <div class="frame13">
-              <button class="log-in-wrapper">
-                <div class="log-in">Log in</div>
-              </button>
-            </div>
-            <div class="frame25">
-              <div class="keep-me-signed"></div>
-            </div>
-          </div>
-          <div class="frame26">
-            <img class="frame-icon5" alt="" src="./public/undefined21.png" />
-
-            <div class="frame27">
-              <button class="log-in-with-google-wrapper">
-                <div class="log-in-with1">Log in with Google</div>
-              </button>
-            </div>
-          </div>
         </div>
-      </div>
+      </form>
     </div>
+
+    <script>
+      var frameContainer1 = document.getElementById("frameContainer1");
+      if (frameContainer1) {
+        frameContainer1.addEventListener("click", function (e) {
+          // Please sync "Home page 2" to the project
+        });
+      }
+      </script>
   </body>
 </html>

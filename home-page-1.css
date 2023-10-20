@@ -206,6 +206,7 @@ html {
   display: inline-block;
   width: 76px;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .about {
   position: relative;
@@ -214,6 +215,7 @@ html {
   display: inline-block;
   width: 77px;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .contact-us {
   position: relative;
@@ -222,6 +224,7 @@ html {
   display: inline-block;
   width: 112px;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .home-group {
   position: absolute;
@@ -236,10 +239,12 @@ html {
   gap: 81px;
   font-size: var(--font-size-xl);
   font-family: var(--font-inter);
+  
 }
 .sign-in {
   position: relative;
   line-height: 40px;
+  cursor: pointer;
 }
 .sign-in-wrapper {
   position: absolute;
@@ -786,6 +791,7 @@ html {
   font-size: var(--font-size-base);
   color: var(--color-white);
   font-family: var(--font-inter);
+  cursor: pointer;
 }
 .jobs3 {
   position: relative;
