@@ -32,12 +32,13 @@ body {
   --color-gray-200: rgba(254, 254, 254, 0.5);
   --color-gray-300: rgba(0, 0, 0, 0.5);
   --color-gray-400: rgba(0, 0, 0, 0.75);
-  --color-goldenrod-100: #f3b600;
+  --color-goldenrod-100: #f5c63b;
   --color-red: #fb0404;
   --color-silver: #c4c4c4;
   --color-whitesmoke-100: #f8f8f8;
   --color-dodgerblue: #1976d2;
   --color-gold: #f1c40f;
+  --color-browngold: #D6AE36;
 
   /* Gaps */
   --gap-3xs: 10px;

@@ -37,7 +37,7 @@ html {
   position: absolute;
   top: 1457px;
   left: 0px;
-  background-color: #f2efef;
+  background-color: var(--color-whitesmoke-100);
   width: 100%;
   height: 656px;
 }
@@ -48,7 +48,7 @@ html {
   width: 100%;
   height: 797px;
   object-fit: cover;
-  background-color: #F5C001;
+  background-color: var(--color-goldenrod-100);
 }
 .home-page-1-inner {
   position: absolute;
@@ -57,7 +57,7 @@ html {
   width: 100%;
   height: 276px;
   object-fit: cover;
-  background-color: #D6AE36;
+  background-color: var(--color-browngold);
 }
 .cookies {
   position: absolute;
@@ -229,7 +229,7 @@ html {
 .home-group {
   position: absolute;
   top: 47px;
-  left: 351px;
+  left: 250px;
   width: 263px;
   height: 40px;
   display: flex;

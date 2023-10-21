@@ -227,7 +227,7 @@ html{
   top: 468px;
   left: 1119px;
   border-radius: var(--br-3xs);
-  background-color: #ff3d00;
+  background-color: var(--color-red);
   width: 155px;
   height: 60px;
   display: flex;

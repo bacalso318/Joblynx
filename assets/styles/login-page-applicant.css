@@ -13,10 +13,10 @@ html {
   position: absolute;
   top: 40px;
   left: 202px;
-  font-size: inherit;
+  font-size: 30px;
   line-height: 40px;
   font-weight: 700;
-  font-family: inherit;
+  font-family: var(--font-antonio);
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   opacity: 0.8;
 }
@@ -28,9 +28,12 @@ html {
   height: 86px;
   object-fit: cover;
 }
+
+.home1,
 .about-us,
 .contact-us,
-.home1,
+
+
 .jobs2 {
   margin: 0;
   position: relative;
@@ -47,20 +50,23 @@ html {
 
 .jobs2 {
   width: 83px;
+  cursor: pointer;
 }
 
 .about-us,
 .contact-us {
   width: 158px;
+  cursor: pointer;
 }
 .about-us {
   width: 97px;
+  cursor: pointer;
 }
 .home-group {
   margin: 0;
   position: absolute;
   top: 40px;
-  left: 1540px;
+  left: 1530px;
   width: 422px;
   display: flex;
   flex-direction: row;
@@ -68,10 +74,10 @@ html {
   justify-content: flex-start;
   gap: 18px;
   text-align: center;
-  font-size: var(--font-size-x1);
+  font-size: 20px;
   color: var(--color-black);
   font-family: var(--font-inter);
-  cursor: pointer;
+
 }
 .frame,
 .frame1 {
@@ -96,7 +102,7 @@ html {
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  background-color: #f1c40f;
+  background-color: var(--color-goldenrod-100);
 }
 .are-you-an {
   position: absolute;
